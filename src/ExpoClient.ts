@@ -10,7 +10,7 @@ import fetch, { Headers, Response as FetchResponse } from 'node-fetch';
 import * as promiseLimit from 'promise-limit';
 import * as zlib from 'zlib';
 
-const BASE_URL = 'https://exp.host';
+const BASE_URL = 'http://localhost/';
 const BASE_API_URL = `${BASE_URL}/--/api/v2`;
 
 /**
